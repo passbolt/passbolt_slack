@@ -1,4 +1,8 @@
 <?php
+/**
+ * Library provided by kaz29 (https://github.com/kaz29)
+ * Repository available on https://github.com/kaz29/cake_slack
+ */
 
 App::uses('HttpSocket', 'Network/Http');
 

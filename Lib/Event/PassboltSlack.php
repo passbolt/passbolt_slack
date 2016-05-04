@@ -19,7 +19,7 @@ class PassboltSlack implements CakeEventListener {
 	 * @param $event
 	 */
 	public function afterUserRegister($event) {
-		if (Configure::read('PassboltSlack')) {
+		if (Configure::read('PassboltSlack') && Configure::read('debug') == 0) {
 			// Retrieve data.
 			$data = $event->data['data'];
 			$name = $data['Profile']['first_name'] . ' ' . $data['Profile']['last_name'];
