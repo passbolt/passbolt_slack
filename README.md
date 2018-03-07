@@ -6,6 +6,8 @@ Passbolt is distributed under [Affero General Public License v3](http://www.gnu.
 About this plugin
 =================
 
+This plugin only works with Passbolt v1.
+
 This is a simple slack plugin for passbolt (https://www.passbolt.com).
 This plugin takes care of sending an alert on slack everytime somebody registers on passbolt.
 More features are planned for the future:
